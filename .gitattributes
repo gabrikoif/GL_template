@@ -1,3 +1,2 @@
-out/** linguist-generated=true
 CMakeLists.txt linguist-language=CMake
 CMakeLists.txt linguist-vendored=true
