@@ -1,5 +1,5 @@
 ﻿cmake_minimum_required(VERSION 3.15)
-project(OpenGL_GameEngine C CXX)
+project(ProjectName C CXX)
 
 # Require C++17 for modern language features
 set(CMAKE_CXX_STANDARD 17)
@@ -7,7 +7,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(PROJECT_SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/funcs.cpp
 )
 
 # 2. Add header search paths (your code directory + GLAD headers)
